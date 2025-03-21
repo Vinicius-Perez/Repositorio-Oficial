@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seja Bem-Vindo(a)!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+  <link rel="icon" href="./src/projetos/foguete.png" type="image/png">
+  <!-- Adicionando Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header id="inicio">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#linguagens">Linguagens</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="video-container">
+      <video autoplay loop muted playsinline>
+        <source src="./src/projetos/8566672-hd_1920_1080_30fps.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    </div>
+    <div class="hero">
+      <h1>Olá, eu sou Vinicius</h1>
+      <p>Desenvolvedor | Técnico de Informática | Técnico de Instalação</p>
+      <a href="#projetos" class="btn">Ver Meus Projetos</a>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Possuo expertise em <span class="destaque">segmentação de redes, CFTV, automação residencial e instalações de áudio e vídeo</span>. Minhas habilidades incluem planejamento, suporte e atendimento ao cliente, implementação e configuração de redes estruturadas, sistemas de monitoramento e automação inteligente, além de instalações de áudio e vídeo de alta qualidade. Com foco em soluções personalizadas, inovação e segurança, busco entregar projetos funcionais e eficientes, sempre atualizado com as tendências do mercado. Além disso, estudo <span class="destaque">Ciência da Computação</span>, com foco em Dev, área que a cada dia me sinto mais feliz em conhecer.</p>
+  </section>
+
+  <section id="linguagens">
+    <h2>Linguagens</h2>
+    <div class="linguagens-container">
+      <div class="linguagem">
+        <img src="./src/icones/icons8-html5.svg" alt="HTML5">
+        <p>HTML</p>
+        <p class="descricao">Estruturação de conteúdo web e a base para a criação de páginas da internet, permitindo a organização de textos, imagens, links e outros elementos.</p>
+      </div>
+      <div class="linguagem">
+        <img src="./src/icones/icons8-css.svg" alt="CSS3">
+        <p>CSS</p>
+        <p class="descricao">Estilização para páginas web, definindo cores, fontes, layouts e animações, tornando o design mais atraente e responsivo.</p>
+      </div>
+      <div class="linguagem">
+        <img src="./src/icones/icons8-javascript.svg" alt="JavaScript">
+        <p>JavaScript</p>
+        <p class="descricao">Adiciona interatividade às páginas web, permitindo animações, validações de formulários, atualizações dinâmicas e muito mais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="projects">
+      <!-- Projeto 1 -->
+      <div class="project-card">
+        <h3>Projeto 1</h3>
+        <p>Aqui estão alguns exemplos de projetos que participei com foco em Áudio e Vídeo</p>
+        <div class="gallery">
+          <div class="main-media">
+            <img src="./src/projetos/projeto1/home.jpg" alt="Imagem do Projeto 1" id="main-media-1">
+          </div>
+          <div class="thumbnails">
+            <img src="./src/projetos/projeto1/home.jpg" alt="Thumbnail 1" class="thumbnail" data-media="./src/projetos/projeto1/home.jpg" data-type="image">
+            <img src="./src/projetos/projeto1/sistema.jpg" alt="Thumbnail 2" class="thumbnail" data-media="./src/projetos/projeto1/sistema.jpg" data-type="image">
+            <video class="thumbnail" data-media="./src/projetos/projeto1/audio.mp4" data-type="video">
+              <source src="./src/projetos/projeto1/audio.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <a href="#modal-projeto1" class="btn ver-detalhes">Ver Detalhes</a>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="project-card">
+        <h3>Projeto 2</h3>
+        <p>Aqui estão alguns exemplos de projetos que participei com foco em Automação e Casa Expert</p>
+        <div class="gallery">
+          <div class="main-media">
+            <img src="./src/projetos/projeto2/Alexa.jpg" alt="Imagem do Projeto 2" id="main-media-2">
+          </div>
+          <div class="thumbnails">
+            <img src="./src/projetos/projeto2/Alexa.jpg" alt="Thumbnail 1" class="thumbnail" data-media="./src/projetos/projeto2/Alexa.jpg" data-type="image">
+            <img src="./src/projetos/projeto2/echo show.jpg" alt="Thumbnail 2" class="thumbnail" data-media="./src/projetos/projeto2/echo show.jpg" data-type="image">
+            <video class="thumbnail" data-media="./src/projetos/projeto2/automação.mp4" data-type="video">
+              <source src="./src/projetos/projeto2/automação.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <a href="#modal-projeto2" class="btn ver-detalhes">Ver Detalhes</a>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="project-card">
+        <h3>Projeto 3</h3>
+        <p>Aqui estão alguns exemplos de projetos que participei com foco em CFTV e Rede estruturada</p>
+        <div class="gallery">
+          <div class="main-media">
+            <img src="./src/projetos/projeto3/mesh e cam.jpg" alt="Imagem do Projeto 3" id="main-media-3">
+          </div>
+          <div class="thumbnails">
+            <img src="./src/projetos/projeto3/mesh e cam.jpg" alt="Thumbnail 1" class="thumbnail" data-media="./src/projetos/projeto3/mesh e cam.jpg" data-type="image">
+            <img src="./src/projetos/projeto3/video porteiro.jpg" alt="Thumbnail 2" class="thumbnail" data-media="./src/projetos/projeto3/video porteiro.jpg" data-type="image">
+            <img src="./src/projetos/projeto3/rede.jpg" alt="Thumbnail 3" class="thumbnail" data-media="./src/projetos/projeto3/rede.jpg" data-type="image">
+          </div>
+        </div>
+        <a href="#modal-projeto3" class="btn ver-detalhes">Ver Detalhes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modais -->
+  <div id="modal-projeto1" class="modal">
+    <div class="modal-content">
+      <span class="fechar">&times;</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./src/projetos/projeto1/home.jpg" alt="Imagem do Projeto 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/projetos/projeto1/sistema.jpg" alt="Imagem do Projeto 1">
+          </div>
+          <div class="swiper-slide">
+            <video controls>
+              <source src="./src/projetos/projeto1/audio.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-projeto2" class="modal">
+    <div class="modal-content">
+      <span class="fechar">&times;</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./src/projetos/projeto2/Alexa.jpg" alt="Imagem do Projeto 2">
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/projetos/projeto2/echo show.jpg" alt="Imagem do Projeto 2">
+          </div>
+          <div class="swiper-slide">
+            <video controls>
+              <source src="./src/projetos/projeto2/automação.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-projeto3" class="modal">
+    <div class="modal-content">
+      <span class="fechar">&times;</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./src/projetos/projeto3/mesh e cam.jpg" alt="Imagem do Projeto 3">
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/projetos/projeto3/video porteiro.jpg" alt="Imagem do Projeto 3">
+          </div>
+          <div class="swiper-slide">
+            <img src="./src/projetos/projeto3/rede.jpg" alt="Imagem do Projeto 3">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <input type="text" id="nome" placeholder="Seu Nome" required>
+      <input type="email" id="email" placeholder="Seu E-mail" required>
+      <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com/vini_pesilva/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/Vinicius-Perez" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/vinícius-perez-da-silva/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://wa.me/5517992411660" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 Vinicius Perez. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>

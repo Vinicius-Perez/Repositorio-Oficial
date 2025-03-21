@@ -1,0 +1,224 @@
+/* Media Queries */
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.3rem;
+  }
+
+  .project-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .swiper-container {
+    height: 300px;
+  }
+
+  #linguagens h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .linguagens-container {
+    gap: 20px;
+  }
+
+  .linguagem {
+    width: 120px;
+  }
+
+  .linguagem img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .linguagem p {
+    font-size: 1rem;
+  }
+
+  .linguagem .descricao {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .swiper-container {
+    height: 200px;
+  }
+
+  #linguagens h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .linguagens-container {
+    gap: 15px;
+  }
+
+  .linguagem {
+    width: 100px;
+  }
+
+  .linguagem img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .linguagem p {
+    font-size: 0.9rem;
+  }
+
+  .linguagem .descricao {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .main-media {
+    height: 200px;
+  }
+
+  .thumbnail {
+    width: 60px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 1921px) {
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero p {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    max-width: 400px;
+  }
+
+  .main-media {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.3rem;
+  }
+
+  .project-card {
+    width: 45%;
+  }
+
+  .main-media {
+    height: 250px;
+  }
+
+  .thumbnail {
+    width: 70px;
+    height: 50px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .project-card {
+    width: 30%;
+  }
+
+  .main-media {
+    height: 200px;
+  }
+
+  .thumbnail {
+    width: 80px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .linguagens-container {
+    gap: 40px; /* Reduz o espaçamento em telas menores */
+  }
+
+  .linguagem {
+    width: 160px; /* Reduz a largura dos itens em telas menores */
+  }
+
+  .linguagem img {
+    width: 80px; /* Reduz o tamanho dos ícones em telas menores */
+    height: 80px;
+  }
+
+  .linguagem p {
+    font-size: 1.2rem; /* Reduz o tamanho da fonte em telas menores */
+  }
+
+  .linguagem .descricao {
+    font-size: 0.9rem; /* Reduz o tamanho da fonte do texto descritivo */
+  }
+}

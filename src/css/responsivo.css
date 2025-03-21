@@ -57,6 +57,35 @@
   }
 }
 
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex; /* Exibe o botão em telas menores */
+  }
+
+  .nav-list {
+    display: none; /* Oculta o menu inicialmente */
+    flex-direction: column;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Esconde o menu fora da tela */
+    background: rgba(31, 41, 55, 0.9);
+    transition: left 0.3s ease;
+  }
+
+  .nav-list.active {
+    left: 0; /* Mostra o menu ao clicar no botão */
+  }
+
+  .nav-list li {
+    margin: 15px 0;
+    text-align: center;
+  }
+}
+
+
 @media (max-width: 480px) {
   nav ul li {
     margin: 10px 0;

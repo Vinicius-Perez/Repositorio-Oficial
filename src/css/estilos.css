@@ -434,3 +434,51 @@ footer {
   }
 }
 
+/* Menu de Hambúrguer */
+.menu-toggle {
+  display: none; /* Oculta o botão em telas maiores */
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(31, 41, 55, 0.9);
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: #00BFFF;
+}
+

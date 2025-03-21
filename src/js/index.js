@@ -189,3 +189,21 @@ document.getElementById('form-contato').addEventListener('submit', function (e) 
   alert('Formulário enviado com sucesso!');
   this.reset();
 });
+
+// Menu de Hambúrguer
+const mobileMenu = document.getElementById('mobile-menu');
+const navList = document.getElementById('nav-list');
+
+// Abrir/Fechar o menu ao clicar no botão de hambúrguer
+mobileMenu.addEventListener('click', () => {
+  navList.classList.toggle('active');
+  mobileMenu.classList.toggle('active');
+});
+
+// Fechar o menu ao clicar em um link
+document.querySelectorAll('.nav-list li a').forEach(link => {
+  link.addEventListener('click', () => {
+    navList.classList.remove('active');
+    mobileMenu.classList.remove('active');
+  });
+});
